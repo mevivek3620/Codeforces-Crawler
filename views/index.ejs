@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Codeforces Crawler</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- Favicons -->
+    <!-- <link rel="icon" href="images/"> -->
+    <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body >
+
+    <form class="form-signin" id="handleform" action="">
+        <!-- <img class="mb-4" src="images/" alt="" width="72" height="72"> -->
+        <h1 class="h3 mb-3 font-weight-normal">Enter your Codeforces handle!</h1>
+        <input type="text" id="handle" class="form-control bottom" name="handle" id="handle" placeholder="User Name" required autofocus>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">GO</button>
+    </form>
+    <div class="row">
+      <div id="verdicts" class="hidden to-clear to-hide card mdl-shadow--2dp col-lg-6">
+      </div>
+      <div id="tags" class="hidden to-clear to-hide card mdl-shadow--2dp col-lg-6">
+      </div>
+    </div>
+    <div class="row">
+      <div id="ratings" class="hidden to-clear to-hide card mdl-shadow--2dp col-lg-12">
+      </div>
+    </div>
+    
+    <script src="/js/try.js"></script>
+   </body>
+</html>
