@@ -1,5 +1,5 @@
 # Codeforces-Crawler
-This is code repository for a simple analytics visualization site for Codeforces online judge users using Codeforces API. 
+This is code repository for a simple analytics visualization site for Codeforces online judge users using Codeforces API. The site  is hosted at https://safe-retreat-21526.herokuapp.com/ .
 Current features
 
 Single User Analytics
