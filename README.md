@@ -11,4 +11,6 @@ Single User Analytics
     5.Total tried problems count
     6.Total solved problems count
     
-  
+Issues
+    1.When there is an incorrect username,it doesn't respond.
+    2.In firefox,verdicts chart sometimes doesn't show up.
